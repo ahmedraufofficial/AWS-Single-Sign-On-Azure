@@ -11,9 +11,9 @@ module.exports = async function (context, req) {
             }
         };
     } else {
-        const APP_ID = 'dc0c3925-5f14-4151-bc0c-948fffef7017';
+        const APP_ID = '';
         const APP_SECERET = '';
-        const TOKEN_ENDPOINT ='https://login.microsoftonline.com/0cea0ab7-2234-4f57-bc80-4d3e66df4791/oauth2/v2.0/token';
+        const TOKEN_ENDPOINT ='https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token';
         const MS_GRAPH_SCOPE = 'https://graph.microsoft.com/.default';
         const postData = {
         client_id: APP_ID,
