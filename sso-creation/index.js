@@ -11,9 +11,9 @@ module.exports = async function (context, req) {
             }
         };
     } else {
-        const APP_ID = '';
-        const APP_SECERET = '';
-        const TOKEN_ENDPOINT ='https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token';
+        const APP_ID = 'Registered MS app ID';
+        const APP_SECERET = 'Registerd MS app Secret';
+        const TOKEN_ENDPOINT ='https://login.microsoftonline.com/{tenant Id}/oauth2/v2.0/token';
         const MS_GRAPH_SCOPE = 'https://graph.microsoft.com/.default';
         const postData = {
         client_id: APP_ID,
