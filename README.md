@@ -1,6 +1,6 @@
 # Pipeline Process 2 for AWS Single Sign on Access from Azure
 
-This pipeline process utilizes the Graph API and is designed for [AWS SSO to AZURE Pipeline Step 2](https://github.com/ahmedraufofficial/AWS-Single-Sign-On-Azure-Pipeline-1). It consists of the following steps:
+This pipeline process utilizes the Graph API and is designed for [AWS SSO to AZURE Pipeline setup](https://github.com/ahmedraufofficial/AWS-Single-Sign-On-Azure-Pipeline). It consists of the following steps:
 
 ## Step 1: Check Application Existence
 
