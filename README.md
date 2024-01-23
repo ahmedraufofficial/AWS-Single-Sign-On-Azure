@@ -1,6 +1,6 @@
-# Pipeline Process 2 for [Your Link]
+# Pipeline Process 2 AWS Single Sign on Access from Azure
 
-This pipeline process utilizes the Graph API and is designed for [Your Link]. It consists of the following steps:
+This pipeline process utilizes the Graph API and is designed for [AWS SSO to AZURE Pipeline Step 2](https://github.com/ahmedraufofficial/AWS-Single-Sign-On-Azure-Pipeline-1). It consists of the following steps:
 
 ## Step 1: Check Application Existence
 
@@ -24,3 +24,7 @@ This pipeline process utilizes the Graph API and is designed for [Your Link]. It
 
 To implement this pipeline process, follow these steps:
 - Deploy this function to Azure Functions Consumption plan
+
+### Related Documentations
+> - [Use Microsoft Graph APIs to configure SAML-based single sign-on - Microsoft Graph](https://docs.microsoft.com/en-us/graph/api/resources/saml-single-sign-on)
+> - [Configure provisioning using Microsoft Graph APIs - Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity/app-provisioning/application-provisioning-configuration-api)
